@@ -9,6 +9,10 @@ left: 15%;
 
 }
 
+body {
+	background-image: url("modern-art-painting.jpg");
+}
+
 img {
 	transform: rotate(90deg);
 	margin-top: 50px;
@@ -37,15 +41,6 @@ figcaption {
 	left: 35px;
 }
 
-.technologies {
-	position: relative;
-	top: 105px;
-	
-}
-
-.technology-list {
-	right: 100px;
-}
 
 .text-right.text-nowrap {
     display: block;
@@ -68,9 +63,11 @@ figcaption {
 
 }
 
-.resources {
+.question-1 {
 	position: relative;
 	top:100px;
+	left: 20px;
+
 
 }
 
@@ -78,3 +75,10 @@ figcaption {
 	right: 50px;
 }
 
+h1 .display-4 {
+	padding-top: 100px; 
+
+	}
+div.jumbotron.jumbotron-fluid {
+	background-color: #F6F7F9;
+}
