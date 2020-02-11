@@ -1,26 +1,32 @@
-.figure-img img-fluid rounded {
+.img {
 overflow: hidden;
 position: relative;
 max-width: 200px;
 margin: 0 auto;
 float: left;
 position: absolute;
-left: 15%;
-
+left: 7%;
+transform: rotate(.5deg);
+top: 100px;
 }
-
-body {
-	background-image: url("modern-art-painting.jpg");
-}
-
-img {
-	transform: rotate(90deg);
-	margin-top: 50px;
-}
-
 
 h1 {
 	text-align: center;
+}
+
+#first_paragraph {
+	top: 100px;
+	float: right;
+	width: 75%;
+	white-space: pre;
+}
+
+#second_paragraph {
+	top: 235px;
+	left: 50px;
+	position: relative;
+	width: 65%;
+	white-space: pre;
 }
 
 figcaption {
@@ -41,6 +47,26 @@ figcaption {
 	left: 35px;
 }
 
+h1 {
+	text-align: center;
+}
+
+div.technology_list {
+	position: relative;
+	left: 75px;
+	top: 195px;
+}
+
+#class_technology {
+	text-align: center;
+}
+
+#technologies {
+	position: relative;
+	top: 205px;
+	left: 575px;
+	white-space: nowrap;
+}
 
 .text-right.text-nowrap {
     display: block;
@@ -63,22 +89,26 @@ figcaption {
 
 }
 
-.question-1 {
+.resources {
 	position: relative;
-	top:100px;
-	left: 20px;
-
+	top:250px;
 
 }
 
-.row {
+#col-sm-4 {
 	right: 50px;
+	bottom: 60px;
 }
 
-h1 .display-4 {
-	padding-top: 100px; 
+/* Button Animation Duration */
+#main_header, .img {
+    -webkit-animation-duration: 4s;
+    transition-duration: 3s;
 
-	}
-div.jumbotron.jumbotron-fluid {
-	background-color: #F6F7F9;
-}
+ }
+
+/* Button CSS */
+
+button {
+	background-color: #008CBA;
+	color: #FFFFFF;
